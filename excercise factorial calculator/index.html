@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial of a number</title>
+</head>
+
+<body>
+    <script>
+
+        // factorial of a number using reduce
+
+        // inserting numbers into the array values
+
+        let fact = [];
+        let factval = prompt("enter array length");
+
+        for (let i = 1; i <= factval; i++) {
+            fact[i] = prompt(`enter element no ${i}`);
+        }
+
+        // let fact = [1,2,3,4,5];
+
+        const redfact = (a, b) => {
+            return a * b
+        }
+
+        console.log(fact.reduce(redfact));
+    </script>
+</body>
+
+</html>

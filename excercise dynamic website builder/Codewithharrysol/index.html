@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image img {
+            height: 100%;
+            width: 258px;
+        }
+
+        .card {
+            display: flex;
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+            margin: 5px;
+        }
+
+        .text h1,
+        p {
+            padding: 2px 15px 0;
+        }
+
+        .text h1 {
+            font-size: 28px;
+        }
+
+        .text p {
+            font-size: 15px;
+            margin: 0 10px 0;
+        }
+
+        .image {
+            position: relative;
+        }
+
+        .capsule {
+            position: absolute;
+            bottom: 11px;
+            z-index: 10;
+            right: 9px;
+            background-color: #00000072;
+            color: rgba(255, 255, 255, 0.932);
+            width: 38px;
+            text-align: center;
+            padding: 3px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="/excercise dynamic website builder/ruharuha.jpeg" alt="">
+                <div class="capsule">31:06</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to backend | Sigma Web Dev Video #2</h1>
+                <p>CodeWithHarry . 727K views . 2 Months ago</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
